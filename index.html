@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishal | DevOps Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Vishal</h2>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Vishal</span></h1>
+      <h3>Self-Taught DevOps Engineer</h3>
+      <p>
+        Skilled in AWS, Linux, Docker, Kubernetes (EKS), Terraform, Ansible, Jenkins,
+        GitHub Actions, Prometheus, Grafana, and CI/CD automation.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/vishal368" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/vishalshamkariaa" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">AWS (EC2, S3, IAM, VPC, RDS, Route 53)</div>
+      <div class="skill-card">Linux & Shell Scripting</div>
+      <div class="skill-card">Docker & Docker Compose</div>
+      <div class="skill-card">Kubernetes & AWS EKS</div>
+      <div class="skill-card">Terraform (IaC)</div>
+      <div class="skill-card">Ansible</div>
+      <div class="skill-card">Jenkins & GitHub Actions</div>
+      <div class="skill-card">Nginx</div>
+      <div class="skill-card">Monitoring: Prometheus, Grafana, CloudWatch</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>CI/CD Automation for Flask App on AWS</h3>
+        <p>
+          Built an end-to-end CI/CD pipeline to build, containerize and deploy a Flask app
+          using Docker, Kubernetes, Jenkins, Terraform, and Ansible.
+        </p>
+        <span class="tag">AWS</span>
+        <span class="tag">Jenkins</span>
+        <span class="tag">Kubernetes</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Node.js CI/CD Pipeline using Jenkins & Docker</h3>
+        <p>
+          Automated Node.js build, Docker image push to DockerHub, and deployment on AWS EC2
+          using Jenkins pipeline triggered by GitHub webhook.
+        </p>
+        <span class="tag">Docker</span>
+        <span class="tag">Jenkins</span>
+        <span class="tag">GitHub Webhooks</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Infrastructure Automation using Terraform</h3>
+        <p>
+          Created Terraform modules for VPC, subnets, NAT Gateway, route tables, EC2 provisioning,
+          and S3 bucket automation.
+        </p>
+        <span class="tag">Terraform</span>
+        <span class="tag">AWS</span>
+        <span class="tag">IaC</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Static Website Deployment using Nginx + Docker + Jenkins</h3>
+        <p>
+          Deployed a static website using Nginx in Docker and automated CI/CD deployment using Jenkins on AWS EC2.
+        </p>
+        <span class="tag">Nginx</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Jenkins</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>DevOps Training</h3>
+        <p><b>Aug 2025 – Jan 2026</b> | Bengaluru, Karnataka</p>
+        <ul>
+          <li>Developed CI/CD pipelines using Jenkins.</li>
+          <li>Managed Docker container deployments on Kubernetes (AWS EKS).</li>
+          <li>Provisioned AWS infrastructure using Terraform (VPC, EC2, IAM).</li>
+          <li>Integrated SonarQube in CI/CD for code quality.</li>
+          <li>Created monitoring dashboards with Prometheus and Grafana.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Software Tester</h3>
+        <p><b>Sep 2024 – Aug 2025</b> | Technitra Pvt. Ltd., Mohali</p>
+        <ul>
+          <li>Tracked bugs and defect reports using Jira.</li>
+          <li>Validated bug fixes with developers and ensured stable releases.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Software Tester Support</h3>
+        <p><b>Sep 2023 – Aug 2024</b> | Dits Innovation, Mohali</p>
+        <ul>
+          <li>Executed manual test cases and prepared test reports.</li>
+          <li>Assisted in documentation and client issue resolution.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box">
+      <p><b>Email:</b> vishalshamkaria@gmail.com</p>
+      <p><b>Phone:</b> +91 76963-61413</p>
+      <p><b>GitHub:</b> <a href="https://github.com/vishal368" target="_blank">github.com/vishal368</a></p>
+      <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/vishalshamkariaa" target="_blank">linkedin.com/in/vishalshamkariaa</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Vishal | DevOps Engineer Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
