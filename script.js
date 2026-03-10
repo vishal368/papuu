@@ -6,4 +6,5 @@ function toggleMenu() {
   } else {
     navLinks.style.display = "flex";
   }
+  
 }
